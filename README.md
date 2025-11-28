@@ -1,15 +1,13 @@
-🛍️ Project Title: Survey Feedback Analyzer
-📘 Project Overview
+## 🛍️ Project Title: Survey Feedback Analyzer
+## 📘 Project Overview
 This project aims to help you apply core Python programming concepts to build a text-based feedback analysis tool.
-📂 Source:
-https://drive.google.com/file/d/1jsRhgw6uRvVeGS_6XF9tk08CpPUJdQoL/view?usp=sharin
-g
+## 📂 Source:
+https://drive.google.com/file/d/1jsRhgw6uRvVeGS_6XF9tk08CpPUJdQoL/view?usp=sharing
 
-
-Problem Statement:
+## Problem Statement:
 In any data-driven domain, especially in Data Science, analysing textual feedback is a critical step for extracting insights, improving services, and understanding user sentiment. This project aims to help you apply core Python programming concepts to build a text-based feedback analysis tool. You will work with survey feedback entries stored in a dictionary of lists, perform basic data cleaning, extract meaningful insights, and apply logic using loops, conditionals, string operations, and user-defined functions.
 
-🧮Project Steps and Objectives:
+## 🧮Project Steps and Objectives:
 Step 1: Preloaded Feedbacks 
 
 Step 2: Add More Feedbacks 
@@ -22,8 +20,8 @@ Step 5: Final Summary & Insights
 
 FINAL PROGRAMME
 
-🧠Project Steps and Objectives
-Step 1: Preloaded Feedbacks 
+## 🧠Project Steps and Objectives
+# Step 1: Preloaded Feedbacks 
 
 Start your program with the following dictionary of lists, preloaded with 10 feedbacks:
 
@@ -67,7 +65,7 @@ feedback_data = {
 }
 
 
-Step 2: Add More Feedbacks 
+# Step 2: Add More Feedbacks 
 Ask the user to enter how many more feedbacks they want to add.
 For each feedback, collect the following inputs from the user:
 •	Name
@@ -96,7 +94,7 @@ Python programme:
 
     start_sno += 1
 
-Step 3: Text Cleaning 
+# Step 3: Text Cleaning 
 •	Clean all feedback entries as follows:
 •	Remove punctuation (., ,, !, ?)
 •	Replace multiple spaces with a single space
@@ -119,7 +117,7 @@ for fb in feedback_data['Feedback']:
 
 feedback_data['Feedback'] = cleaned_feedbacks
 
- Step 4: Word Count Insights 
+# Step 4: Word Count Insights 
 Create a function count_word_in_feedbacks(word) that:
 •	Takes a word as input.
 •	Returns how many feedbacks contain that word (case-insensitive match).
@@ -143,7 +141,7 @@ print("Feedbacks containing 'good':", count_word_in_feedbacks("good"))
 print("Feedbacks containing 'poor':", count_word_in_feedbacks("poor"))
 print("Feedbacks containing 'excellent':", count_word_in_feedbacks("excellent"))
 
-Step 5: Final Summary & Insights
+# Step 5: Final Summary & Insights
 
 •	Display the final cleaned feedback_data (dictionary of lists).
 •	Print the average rating from all feedbacks.
@@ -289,7 +287,7 @@ print("\n--- Feedbacks Sorted by Rating ---")
 for entry in sorted_data:
     print(entry)
 
-Result:
+# Result:
 How many more feedbacks do you want to add? 5
 Enter Name: boopathi
 Enter Feedback: good
@@ -345,10 +343,11 @@ Unique Words Used in All Feedbacks:
 (2, 'Meera', 'poor support not happy')
 (1, 'Kiran', 'poor response and poor handling of issue')
 
-✅ Conclusion
-This project aims to help you apply core Python programming concepts to build a text-based feedback analysis tool. You will work with survey feedback entries stored in a dictionary of lists, perform basic data cleaning, extract meaningful insights, and apply logic using loops, conditionals, string operations, and user-defined functions.
-👩‍💻 Author
-Project Title:  Survey Feedback Analyzer
-Author: Boopathiraja suresh
-Tools: python
-Year: 2025
+# ✅ Conclusion
+    This project aims to help you apply core Python programming concepts to build a text-based feedback analysis tool. You will work with survey feedback entries stored in a dictionary of lists, perform basic data cleaning, extract meaningful insights, and apply logic using loops, conditionals, string operations, and user-defined functions.
+
+# 👩‍💻 Author
+**Project Title:** Survey Feedback Analyzer
+**Author:** *Boopathiraja suresh*  
+**Tools:** python  
+**Year:** 2025
